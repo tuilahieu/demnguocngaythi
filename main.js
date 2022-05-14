@@ -1,3 +1,5 @@
+console.log("%c MADE BY TRAN HIEU. SOURCE CODE IN MY GITHUB PAGE. %c", 'font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:24px;color: magenta;-webkit-text-fill-color:#00bbee;-webkit-text-stroke: 1px #00bbee;', "font-size:12px;color:magenta;");
+
 const changeBackground = document.querySelector('.wrapper');
 const backgroundUrl = [
     './assets/background/bg2.jpg',
