@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
+.wrapper {
+    background: center/cover no-repeat;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    inset: 0;
+    color: #a63737;
+    transition: all 0.25s ease-in-out;
+}
+
+.wrapper.dark {
+    filter: brightness(0.75);
+}
+
+.heading {
+    color: #000;
+}
+
+.fa-book-open,
+.fa-clock {
+    color: magenta;
+}
+
+.quote-content {
+    position: relative;
+    font-style: italic;
+}
+
+.dn {
+    display: none;
+}
+
+.quote-content::before{
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    left: -26px;
+}
+.quote-content::after{
+    content: "\f10e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    bottom: 0px;
+    right: -26px;
+}
+
+
+
+.quote-note {
+    text-align: center;
+}
+
+.quote {
+    font-size: 24px;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    border-radius: 5px;
+    padding: 3px;
+    margin: 30px 0;
+}
+
+.counter-top {
+    text-align: center;
+    font-size: 24px;
+}
+
+.counter-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.counter-row {
+    width: 25%;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 4px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.counter-row .upper {
+    font-size: 36px;
+}
+
+.end {
+    color: magenta;
+    font-size: 24px;
+    text-align: center;
+    display: none;
+}
+
+footer {
+    background: #fff;
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+footer i.fa-heart {
+    color: red;
+}
+
+.footer-bottom {
+    background: #ccc;
+}
+
+.footer-bottom  a {
+    color: blue;
+    text-decoration: none;
+}
+
+.reload {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    left: 20px;
+    bottom: 150px;
+    transition: 1s ease-in-out;
+}
+
+.theme-mode {
+    position: fixed;
+    width: 80px;
+    height: 40px;
+    background-color: magenta;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    right: 20px;
+    bottom: 150px;
+
+}
+
+.change-style {
+    background-color: #fff;
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    transform: translateX(0);
+    transition: all 0.25s ease-in-out;
+}
+
+.change-style.dark {
+    background-color: #000;
+    transform: translateX(100%);
+}
