@@ -65,7 +65,7 @@
     /* background-color: rgba(255, 255, 255, 0.2); */
     border-radius: 5px;
     padding: 3px;
-    margin: 30px 0;
+    /* margin: 30px 0; */
 }
 
 .counter-top {
@@ -77,7 +77,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 0;
+    /* padding: 30px 0; */
 }
 
 .counter-row {
@@ -126,7 +126,7 @@ footer i.fa-heart {
 }
 
 .reload {
-    position: fixed;
+    position: absolute;
     width: 50px;
     height: 50px;
     font-size: 50px;
@@ -134,12 +134,12 @@ footer i.fa-heart {
     display: flex;
     align-items: center;
     left: 20px;
-    bottom: 150px;
+    bottom: 66px;
     transition: 1s ease-in-out;
 }
 
 .theme-mode {
-    position: fixed;
+    position: absolute;
     width: 80px;
     height: 40px;
     background-color: magenta;
@@ -147,7 +147,7 @@ footer i.fa-heart {
     display: flex;
     align-items: center;
     right: 20px;
-    bottom: 150px;
+    bottom: 66px;
 
 }
 
