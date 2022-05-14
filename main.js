@@ -54,7 +54,7 @@ reload.addEventListener('click', function() {
     this.style.transform = "rotate(360deg)";
     setTimeout(function() {
         location.reload();
-    },1000);
+    },300);
 });
 
 // counter
